@@ -5,8 +5,8 @@ import { XIcon, SpinnerIcon, PlusIcon, TrashIcon, ProjectIcon } from './Icons';
 import { useSettings } from '../context/SettingsContext';
 import { useToasts } from '../context/ToastContext';
 import type { Profile, Project, ProjectMember } from '../types';
-import Avatar from '../../common/Avatar';
-import { PROJECT_COLORS } from '../../constants';
+import Avatar from '../common/Avatar';
+import { PROJECT_COLORS } from '../constants';
 import MultiSelectDropdown from '../dashboard/admin/MultiSelectEmployeeDropdown';
 
 interface UserProjectDetails extends Project {
