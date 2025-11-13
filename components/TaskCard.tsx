@@ -1,10 +1,11 @@
+
 import React, { useMemo, useState, useEffect } from 'react';
 import { Task, Profile } from '../types';
 import { useSettings } from '../context/SettingsContext';
 import { TrashIcon, EditIcon, ClockIcon, PlayIcon, CheckCircleIcon, XCircleIcon, CalendarIcon, PaperclipIcon, ArrowRightIcon, ChatBubbleIcon, CheckIcon } from './Icons';
 import PriorityIndicator from './common/PriorityIndicator';
 import Avatar from './common/Avatar';
-import { PROJECT_COLORS } from '../../constants';
+import { PROJECT_COLORS } from '../constants';
 import { getTodayDateString } from '../lib/taskUtils';
 
 interface TaskCardProps {
